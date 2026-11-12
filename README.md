@@ -51,4 +51,4 @@ src/
 - Environment: `VITE_API_BASE_URL=https://<your-backend>.onrender.com`
 - Rewrite rule: source `/*`, destination `/index.html`, action `Rewrite` (needed for client-side routes)
 
-Add the deployed frontend URL to the backend's `CORS_ORIGINS`.
+Add the deployed frontend URL to the backend's `ALLOWED_ORIGINS` (comma-separated, multiple origins supported).
